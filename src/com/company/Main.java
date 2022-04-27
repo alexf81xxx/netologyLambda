@@ -14,7 +14,7 @@ public class Main {
         int c = calculator.devide.apply(a, b);
         
         calculator.println.accept(c); // Не работает, так как происходит деление на 0. Способ решения 1 - выбросить исключение (как реализовал я)
-        // 2 -
+        // 2 - через ads взять, зачем-то и сделать x == -1;
         
         
         
