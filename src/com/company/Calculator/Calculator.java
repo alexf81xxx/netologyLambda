@@ -10,7 +10,7 @@ public class Calculator {
     // класса Calculator - Но зачем?????? Почему я просто не могу создать объект класса Calculator?
     
     public UnaryOperator<Integer> pow = x -> x * x;
-    public UnaryOperator<Integer> abs = x -> x > 0 ? x : x * -1;
+    public UnaryOperator<Integer> abs = x -> x > 0 ? x : x * -1; // Если x==0 то мы зачем-то делаем x равным -1 ЗАЧЕМ???
     
     public Predicate<Integer> isPositive = x -> x > 0;
     public Consumer<Integer> println = System.out::println;
