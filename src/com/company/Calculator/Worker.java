@@ -1,5 +1,7 @@
 package com.company.Calculator;
 
+import com.company.Worker.OnTaskDoneListener;
+
 public class Worker {
     
     public OnTaskDoneListener callback;
